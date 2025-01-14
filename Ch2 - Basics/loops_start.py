@@ -32,7 +32,7 @@ def main():
 
     # TODO: using the enumerate() function to get index
     days = ["Mon","Tue","Wed","Thu","Fri","Sat","Sun"]
-    for x,y in enumerate(days): # enumerate returns a pair of values, the index as well as the value, so we need 2 vars 
+    for x,y in enumerate(days): # enumerate returns a pair of values, the index as well as the value, so we need 2 vars . The first var is the numerator, the 2nd var is the value
         print(x,y)
     
   
