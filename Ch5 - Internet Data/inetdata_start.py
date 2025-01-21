@@ -7,6 +7,7 @@ import urllib.request
 
 def main():
     #open a connection to a URL using urllib2
+    # note, this is basically sending a GET request to the server
     webUrl = urllib.request.urlopen("Http://www.google.com")
 
     #get the result code and print it
